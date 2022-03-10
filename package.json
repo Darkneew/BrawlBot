@@ -1,0 +1,29 @@
+{
+  "name": "musicbot",
+  "description": "A discord music bot",
+  "version": "1.0.0",
+  "engines": {
+    "node": "10.15.0",
+    "npm": "6.4.1"
+  },
+  "main": "bot.js",
+  "scripts": {
+    "start": "node bot.js"
+  },
+  "dependencies": {
+    "@discordjs/uws": "^10.149.0",
+    "bufferutil": "^4.0.0",
+    "discord-node": "0.0.6",
+    "discord.js": "^11.5.1",
+    "ffmpeg": "0.0.4",
+    "ffmpeg-binaries": "^4.0.0",
+    "fs": "0.0.1-security",
+    "libsodium-wrappers": "^0.7.3",
+    "m3u8stream": "^0.6.4",
+    "opusscript": "0.0.7",
+    "parse-time": "^0.1.4",
+    "youtube-node": "^1.3.3",
+    "ytdl": "^1.1.0",
+    "ytdl-core": "^1.0.7"
+  }
+}
